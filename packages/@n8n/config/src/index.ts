@@ -55,15 +55,7 @@ export class GlobalConfig {
 
 	/** Host name n8n can be reached */
 	@Env('N8N_HOST')
-	host: string = 'localhost';
-
-	/** HTTP port n8n can be reached */
-	@Env('N8N_PORT')
-	port: number = 5678;
-
-	/** IP address n8n should listen on */
-	@Env('N8N_LISTEN_ADDRESS')
-	listen_address: string = '0.0.0.0';
+	host: string = 'aianswers-n8n-workflows.onrender.com';
 
 	/** HTTP Protocol via which n8n can be reached */
 	@Env('N8N_PROTOCOL')
