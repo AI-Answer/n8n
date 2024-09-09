@@ -68,7 +68,7 @@ export class GlobalConfig {
 
 	/** HTTP Protocol via which n8n can be reached */
 	@Env('N8N_PROTOCOL')
-	protocol: 'http' | 'https' = 'http';
+	protocol: 'https' 
 
 	@Nested
 	endpoints: EndpointsConfig;
